@@ -1,0 +1,144 @@
+/* Reset some default styles */
+body, h1, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Set default font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Header styling */
+.header {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 0;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav ul li {
+    display: inline;
+    padding: 10px;
+}
+
+.nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+/* Search icon styling */
+.search-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* Gus section styling */
+.gus {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.gus img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.gus p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Info section styling */
+.info {
+    margin: 20px 0;
+}
+
+.info_title h1 {
+    font-size: 2em;
+    color: #4CAF50;
+}
+
+.info p {
+    line-height: 1.6;
+}
+
+/* Footer styling */
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer a {
+    margin: 0 10px;
+}
+
+.footer img {
+    width: 30px;
+    height: 30px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #333;
+}
+
+#skills, #certificates {
+    margin-bottom: 30px;
+}
+
+.skill {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.certificate {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.certificate h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.certificate img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.certificate p {
+    color: #666;
+}
